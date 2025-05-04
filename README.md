@@ -17,10 +17,10 @@ Este projeto é um site desenvolvido em **React** com o objetivo de coletar dado
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) – Biblioteca principal para construção da interface
-- [Vite](https://vitejs.dev/) – Ferramenta de build (se usada)
+- [Vite](https://vitejs.dev/) – Ferramenta de build
 - [ESLint](https://eslint.org/) – Análise estática de código
-- [TailwindCSS](https://tailwindcss.com/) – Estilização (se usada)
-- [React Router](https://reactrouter.com/) – Roteamento entre páginas (se aplicável)
+- [TailwindCSS](https://tailwindcss.com/) – Estilizaçã
+- [React Router](https://reactrouter.com/) – Roteamento entre páginas
 
 ## 📂 Estrutura do Projeto
 src/  
@@ -35,7 +35,7 @@ src/
 1. Clone o repositório:
 
 
-git clone https://github.com/seuusuario/nome-do-repo.git  
+git clone https://github.com/gabriel-higuchi/furiaknowfan.git 
 cd nome-do-repo  
 
 2. Instale as dependencias:
