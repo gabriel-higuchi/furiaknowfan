@@ -1,0 +1,86 @@
+/* Estilo moderno para formulário de registro */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+  }
+  
+  .register-box {
+    background-color: #1a1a1a;
+    padding: 2.5rem 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .register-box:hover {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+  }
+  
+  .register-box h2 {
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .register-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-box input {
+    background-color: #2a2a2a;
+    border: none;
+    padding: 0.9rem 1rem;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: background 0.3s;
+  }
+  
+  .register-box input:focus {
+    background-color: #333;
+    box-shadow: 0 0 0 2px #ffffff33;
+  }
+  
+  .register-box button {
+    background-color: #ffffff;
+    color: #0f0f0f;
+    font-weight: bold;
+    border: none;
+    padding: 0.9rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .register-box button:hover {
+    background-color: #ffffff;
+  }
+  
+  .register-footer {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .register-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .register-footer a:hover {
+    color: #ffffff;
+  }
+  

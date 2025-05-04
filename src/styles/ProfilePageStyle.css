@@ -1,0 +1,275 @@
+.profile-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+    min-height: 100vh;
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .profile-header h1 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .completion-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .completion-fill {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: width 0.5s ease;
+  }
+  
+  .completion-bar span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #0f0f0f;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .profile-section {
+    background-color: #1a1a1a;
+    border-radius: 1.5rem;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+  }
+  
+  .profile-section:hover {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+  }
+  
+  .profile-section h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #2f2f2f;
+    padding-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #ddd;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    background-color: #2a2a2a;
+    color: #fff;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus {
+    background-color: #333;
+    box-shadow: 0 0 0 2px #ffffff44;
+  }
+  
+  .form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  .file-upload {
+    border: 2px dashed #444;
+    padding: 30px;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #1f1f1f;
+    color: #aaa;
+  }
+  
+  .file-upload input[type="file"] {
+    display: none;
+  }
+  
+  .file-upload p {
+    margin-top: 10px;
+  }
+  
+  .id-preview {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .id-preview img {
+    max-width: 100%;
+    max-height: 250px;
+    border-radius: 1rem;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0,255,157,0.1);
+  }
+  
+  .save-button {
+    background-color: #ffffff;
+    color: #0f0f0f;
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .save-button:hover {
+    background-color: #ffffff;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 1rem;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 0 25px rgba(255, 0, 100, 0.2);
+    color: #fff;
+  }
+  
+  .modal-content h2 {
+    color: #ff4c71;
+  }
+  
+  .modal-content p,
+  .modal-content li {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content ul {
+    padding-left: 20px;
+  }
+  
+  .modal-close {
+    background-color: #ff4c71;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .modal-close:hover {
+    background-color: #e13c5f;
+  }
+  
+  .floating-help-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff4c71;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(255, 0, 100, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  .floating-help-button:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .profile-container {
+      padding: 20px 10px;
+    }
+  
+    .profile-section {
+      padding: 20px;
+    }
+  }
+  .cpf-input-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .validate-cpf-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .validate-cpf-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Adicione ao seu arquivo CSS */
+.form-group .react-select__control {
+    min-height: 44px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  .form-group .react-select__control--is-focused {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  }
+  
+  .form-group .react-select__menu {
+    z-index: 10;
+  }

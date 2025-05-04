@@ -1,0 +1,101 @@
+/* HomePageStyle.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0d1117; /* Fundo escuro para dar um contraste */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards; /* Animação para a página aparecer */
+  }
+  
+  .home-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 20px;
+    animation: slideIn 1s ease-out; /* Animação para o conteúdo deslizar */
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff; /* Cor laranja destacada para o título */
+    opacity: 0;
+    animation: fadeIn 1.5s forwards 0.5s; /* Animação para o título aparecer com delay */
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #b3b3b3;
+    margin-top: 10px;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards 1s; /* Animação para o subtítulo aparecer com delay */
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #ccc;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards 1.5s; /* Animação para a descrição aparecer com delay */
+  }
+  
+  .cta-button {
+    background-color: #222222; /* Cor de destaque do botão */
+    color: white;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards 2s; /* Animação para o botão aparecer com delay */
+  }
+  
+  .cta-button:hover {
+    background-color: #2e2e2e; /* Efeito hover para o botão */
+  }
+  
+  .login-subtitle {
+    font-size: 1rem;
+    color: #b3b3b3;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards 2.5s; /* Animação para o subtítulo de login aparecer com delay */
+  }
+  
+  .login-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
