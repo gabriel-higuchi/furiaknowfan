@@ -42,7 +42,7 @@ npm install
 npm run dev
 
 4. Crie um database (o utilizado foi o PostgreSQL usando o pgAdmin 4):  
-crie as tabelas:
+crie as tabelas:  
 CREATE TABLE IF NOT EXISTS fan_profiles (  
 id SERIAL PRIMARY KEY,  
 user_id INTEGER,  
