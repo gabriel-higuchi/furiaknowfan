@@ -36,12 +36,16 @@ git clone https://github.com/gabriel-higuchi/furiaknowfan.git
 cd nome-do-repo  
 
 2. Instale as dependencias:
-npm install  
+npm install
 
-3. Rode o servidor de desenvolvimento:
+3. Insira sua chave geminiAPI na linha:
+no arquivo chat-analysis.jsx remova "SuaChaveAPI" pela sua chave.  
+https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=SuaChaveAPI  
+
+5. Rode o servidor de desenvolvimento:
 npm run dev
 
-4. Crie um database (o utilizado foi o PostgreSQL usando o pgAdmin 4):  
+6. Crie um database (o utilizado foi o PostgreSQL usando o pgAdmin 4):  
 crie as tabelas:  
 CREATE TABLE IF NOT EXISTS fan_profiles (  
 id SERIAL PRIMARY KEY,  
