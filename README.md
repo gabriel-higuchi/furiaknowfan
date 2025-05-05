@@ -10,7 +10,6 @@ pode acessar as outras telas adicionando /register, /login, /profile, /chat-anal
 - ✅ Formulário de perfil do usuário
 - ✅ Campos para Twitter (X), Instagram, Steam e Discord
 - ✅ Interface amigável e responsiva
-- ✅ Validação de dados
 - ✅ Preparado para integração com backend/API
 
 ## 🛠️ Tecnologias Utilizadas
