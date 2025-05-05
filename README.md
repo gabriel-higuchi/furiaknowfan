@@ -15,7 +15,6 @@ pode acessar as outras telas adicionando /register, /login, /profile, /chat-anal
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) – Biblioteca principal para construção da interface
-- [Vite](https://vitejs.dev/) – Ferramenta de build
 - [ESLint](https://eslint.org/) – Análise estática de código
 - [TailwindCSS](https://tailwindcss.com/) – Estilizaçã
 - [React Router](https://reactrouter.com/) – Roteamento entre páginas
