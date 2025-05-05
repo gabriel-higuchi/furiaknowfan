@@ -2,6 +2,8 @@
 
 Este projeto é um site desenvolvido em **React** com o objetivo de coletar dados de fãs de eSports. Os usuários podem preencher um perfil com suas redes sociais e interesses, permitindo a criação de uma base de dados para comunidades, eventos ou iniciativas de marketing no cenário competitivo.
 
+#Caso você não tenha o banco de dados ou o servidor rodando pode acessar as outras telas adicionando /register, /login, /profile, /chat-analysis.
+
 ## 🚀 Funcionalidades
 
 - ✅ Formulário de perfil do usuário
