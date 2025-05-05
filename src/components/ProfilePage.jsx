@@ -333,7 +333,7 @@ function ProfilePage() {
                 required
               >
                 <option value="">Selecione seu jogo favorito</option>
-                <option value="CS2">Counter-Strike: Global Offensive</option>
+                <option value="CS2">CS2</option>
                 <option value="LOL">League of Legends</option>
                 <option value="DOTA2">Dota 2</option>
                 <option value="VALORANT">Valorant</option>
@@ -359,7 +359,7 @@ function ProfilePage() {
                 type="text" 
                 value={favoritePlayer} 
                 onChange={(e) => setFavoritePlayer(e.target.value)} 
-                placeholder="Ex: Fallen, Taco, KSCERATO"
+                placeholder="Ex: Fallen, Yuurih, KSCERATO"
               />
             </div>
             <div className="form-group">
