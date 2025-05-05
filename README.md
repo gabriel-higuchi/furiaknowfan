@@ -12,10 +12,6 @@ Este projeto é um site desenvolvido em **React** com o objetivo de coletar dado
 - ✅ Validação de dados
 - ✅ Preparado para integração com backend/API
 
-## 🖼️ Capturas de Tela
-
-> *(Adicione aqui imagens da interface, se desejar)*
-
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) – Biblioteca principal para construção da interface
@@ -44,7 +40,11 @@ cd nome-do-repo
 npm install  
 
 3. Rode o servidor de desenvolvimento:
-npm run dev  
+npm run dev
+
+3. Rode o backend:
+na pasta backend rode o index.js
+node ./index.js  
 
 
 
