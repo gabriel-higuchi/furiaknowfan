@@ -39,8 +39,8 @@ cd nome-do-repo
 npm install
 
 3. Insira sua chave geminiAPI na linha:
-no arquivo chat-analysis.jsx remova "SuaChaveAPI" pela sua chave.  
-https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=SuaChaveAPI  
+no arquivo chat-analysis.jsx remova "SuaChaveAPI" pela sua chave.    
+`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=SuaChaveAPI`
 
 5. Rode o servidor de desenvolvimento:
 npm run dev
