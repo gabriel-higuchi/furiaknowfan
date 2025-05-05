@@ -74,8 +74,8 @@ email text,
 senha text  
 );   
 
-5. Rode o backend:
-na pasta backend rode o index.js
+5. Rode o backend:  
+na pasta backend rode o index.js  
 node ./index.js
 
 
